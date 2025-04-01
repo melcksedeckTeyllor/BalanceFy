@@ -1,0 +1,109 @@
+.container-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #01081B;
+}
+
+.logo-login h1{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 300;
+    font-style: rugular;
+}
+.logo-login h1 span{
+    color: #0BB07B;
+    font-weight: 300;
+}
+
+.logo-login  .span-login{
+    font-size:1.4rem;
+    color: #fff;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 400px;
+    
+} 
+
+
+.form-login input{
+    padding: .8rem;
+    margin: 0.5rem 0;
+    width: 100%;
+    border-radius: 0.5rem;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    font-size: 1rem;
+}
+
+.form-login input:focus{
+    outline: none;
+    box-shadow: 0 0 5px #000;
+}
+
+.form-login label{
+    font-size: 1rem;
+    color: #fff;
+}   
+
+.form-login .btn-login{
+    padding: .8rem;
+    margin: 0.5rem 0;
+    width: 100%;
+    border-radius: 0.5rem;
+    color: #fff;
+    background-color: #F03D3D;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+.form-login .btn-login:hover{
+    background-color: #0BB07B;
+    transition: 0.3s;
+}
+.form-login .btn-register{
+    padding: .8rem;
+    margin: 0.5rem 0;
+    width: 100%;
+    border-radius: 0.5rem;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+.password-recover{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9rem;   
+}
+.password-recover:hover{
+    text-decoration: underline;
+}
+
+.form-login p{
+    color: #fff;
+    font-size: 0.9rem;
+    text-align: center;
+}
+.form-login p a{
+    text-decoration: none;
+    color: #0BB07B;
+    font-weight: 600;
+}
+.form-login p a:hover{
+    text-decoration: underline;
+}
