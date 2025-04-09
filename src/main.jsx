@@ -8,7 +8,7 @@ import Register from "./pages/Register.jsx"
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <Login/> */}
-    <Register/>
+    {/* <Register/> */}
     <App/>
   </StrictMode>,
 )
