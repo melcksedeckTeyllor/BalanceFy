@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import { PieChart, Pie, Cell, Legend, Tooltip } from 'recharts';
-
+import App from '../App';
 const data = [
   { name: 'Alimentação', value: 400 },
   { name: 'Fixos', value: 300 },
